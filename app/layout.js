@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Shortpoint - Your trusted URL shortner",
   description: "shortpoint helps you shorten your Urls easily",
+  icons: {
+    icon: "/favicon.png", 
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -23,6 +26,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-purple-100`}
       >
+          
         <Navbar/>
         {children}
       </body>
