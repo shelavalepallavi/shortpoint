@@ -89,12 +89,7 @@ const Contact = () => {
             </p>
           )}
 
-          <div className="mt-8">
-            <p className="text-gray-600">Or you can reach us at:</p>
-            <p className="text-purple-600">
-              <a href="mailto:support@shortenurl.com" className="hover:underline">support@shortpoint.com</a>
-            </p>
-          </div>
+          
         </div>
       </div>
     </>
